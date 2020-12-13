@@ -1,7 +1,7 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://test:test@cluster0.pb8xw.mongodb.net/test');
+mongoose.connect('mongodb+srv://username:password@cluster0.pb8xw.mongodb.net/dbname');
 
 var todoSchema = new mongoose.Schema({
   item: String
